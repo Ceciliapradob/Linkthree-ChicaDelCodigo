@@ -1,0 +1,69 @@
+/* Estilo general del cuerpo con un gradiente de fondo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #cb6ce6, #3101ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la imagen de perfil */
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Descripción debajo de la foto de perfil */
+.description {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo general para cada ítem de enlace */
+.link-item {
+    margin: 10px 0;
+}
+
+/* Estilo para los enlaces dentro de cada ítem */
+.link-item a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 25px; /* Aumentar el padding para hacer los contenedores más altos y cuadrados */
+    border-radius: 10px; /* Hacer los bordes más redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+    font-size: 18px; /* Aumentar el tamaño del texto */
+}
+
+/* Efecto al pasar el cursor sobre los enlaces */
+.link-item a:hover {
+    background: #f0f0f0;
+}
+
+/* Espacio entre el texto y el icono */
+.link-item i {
+    margin-left: 20px; /* Aumentar el espacio entre el texto y el icono */
+    font-size: 24px; /* Aumentar el tamaño del icono */
+}
