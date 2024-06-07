@@ -67,3 +67,13 @@ body {
     margin-left: 20px; /* Aumentar el espacio entre el texto y el icono */
     font-size: 24px; /* Aumentar el tamaño del icono */
 }
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    /* .description {
+        text-align: justify;
+    } */
+    .link-item a {
+        text-align: justify;
+    }
+}
